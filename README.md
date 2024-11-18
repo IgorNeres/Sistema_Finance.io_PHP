@@ -1,5 +1,5 @@
 # Finance.io
-<div style="alight-center; width="300px">
+<div style="alight-center; width="100px">
   <img src="https://github.com/user-attachments/assets/bc1298ec-3894-4e02-aad9-8ed01720dcae">
 </div>
 
