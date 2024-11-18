@@ -1,7 +1,8 @@
 # PROJETO CRUD(FitPlanner)
 <div align="center">
-<img src="https://github.com/user-attachments/assets/b76a63fe-4ddc-417e-b637-08d23a81f217" width="700px"/>
+<img src="https://github.com/user-attachments/assets/4d82aa8b-31fc-4707-8178-8b27c41d0852" width="700px"/>
 </div>
+
 
 ## SOBRE O PROJETO
 O projeto consiste em um sistema web de gestão de treinos para personais trainers, desenvolvido em PHP, com as funcionalidades CRUD(Create, Read, Update e Delete). O sistema oferece telas de logins tanto para personais, quantos para seus respectivos clientes. As funcionalidades fornecidas para os personais são as de cadastrar um aluno, criar seu treino, visualizar, editar e excluir seus alunos, os alunos podem acessar sua conta e ter acesso ao treino disponibilizado por seu personal.
