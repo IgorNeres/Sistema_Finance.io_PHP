@@ -1,4 +1,7 @@
-# Sistema de Controle de Clientes, Fiados e Produtos
+# Finance.io
+<div style="alight-center">
+  <img src="https://github.com/user-attachments/assets/bc1298ec-3894-4e02-aad9-8ed01720dcae">
+</div>
 
 Este sistema foi desenvolvido para gerenciar clientes, fiados e produtos de uma empresa. O sistema permite um login único para acesso, onde o usuário tem acesso a três áreas principais: **Clientes**, **Fiados** e **Produtos**.
 
@@ -129,5 +132,3 @@ Na seção de **Produtos**, o usuário pode gerenciar o estoque da empresa:
 ## **Considerações Finais**
 
 Este sistema oferece uma maneira simples e eficiente de gerenciar clientes, fiados e produtos, sendo ideal para pequenas empresas que buscam um controle melhor de suas operações diárias. O design responsivo permite o acesso via dispositivos móveis e desktop, tornando a gestão acessível em qualquer lugar.
-
-Se você tiver alguma dúvida ou sugestão de melhoria, fique à vontade para entrar em contato com o desenvolvedor!
