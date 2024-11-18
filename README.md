@@ -1,6 +1,6 @@
-# PROJETO CRUD(FitPlanner)
+# SISTEMA PHP(Finance.io)
 <div align="center">
-<img src="https://github.com/user-attachments/assets/4d82aa8b-31fc-4707-8178-8b27c41d0852" width="700px"/>
+<img src="https://github.com/user-attachments/assets/4d82aa8b-31fc-4707-8178-8b27c41d0852" width="300px"/>
 </div>
 
 
@@ -20,12 +20,12 @@ Além disso, para facilitar a avaliação dos personais quantos ao seus dias de 
 ## TECNOLOGIAS UTILIZADAS 🔧
 - **PHP**: linguagem de progamação utilizada para a construção lógica do sistema.
 - **MySQL**: Banco de dados utilizado para armazenar os dados de personais e clientes.
-- **Bootstrap**: Framework CSS utilizado para estilização da aplicação.
+- **Bootstrap**: Framework CSS e JavaScript utilizado para estilização da aplicação.
 - **Google Charts**: Biblioteca JavaScript utilizada para criação dos gráficos interativos a partir do dados dos usuários.
 
 ## MODELAGEM DE DADOS 🗃️
 Ressalta-se que o projeto foi realizado desde o início passando pelas três etapas da modelagem de dados:
-1. **Modelo Conceitual**: Definer as entidades e relacionamentos(disponível na pasta modelagem de dados);
+1. **Modelo Conceitual**: Definer as entidades e relacionamentos(disponível na pasta documentos);
 2. **Modelo Lógico**: Detalhamento das tabelas envolvidas, campos e relacionamentos; 
 3. **Modelo Físico**: Criação concreta do banco de dados no MySQL, com a implementação das tabelas e índices a fim de melhorar o desempenhos nas consultas.
 
@@ -104,16 +104,7 @@ SELECT * FROM cliente WHERE id_personal = '$id'
 
 ## IMAGENS DO SISTEMA 📷
 <div align="center">
-<h4>Tela de login</h4>
-<img src="https://github.com/user-attachments/assets/1be12283-115f-4e37-a7ec-7ae3ed9e4725" width="900px"/>
-<h4>Tela Personal</h4>
-<img src="https://github.com/user-attachments/assets/97bc7144-4dba-434e-84bf-950c0972c788" width="900px"/>
-<h4>Tela Estatísticas</h4>
-<img src="https://github.com/user-attachments/assets/9f686e67-cd9e-4ad9-b6f2-4a19b6cc73ee" width="900px"/>
-<h4>Cadastro de Aluno</h4>
-<img src="https://github.com/user-attachments/assets/3d846215-30c5-4327-9309-c27a409ffbc6" width="900px"/>
-<h4>Tela Aluno</h4>
-<img src="https://github.com/user-attachments/assets/6aba0a02-3227-4553-bbab-3d4687536041" width="900px"/>
+ 
 </div>
 
 
