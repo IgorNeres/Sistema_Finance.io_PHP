@@ -1,6 +1,6 @@
 # Finance.io
-<div style="alight-center;>
-  <img src="https://github.com/user-attachments/assets/bc1298ec-3894-4e02-aad9-8ed01720dcae">
+<div style="alight-center;">
+  <img src="https://github.com/user-attachments/assets/bc1298ec-3894-4e02-aad9-8ed01720dcae" width="100px">
 </div>
 
 Este sistema foi desenvolvido para gerenciar clientes, fiados e produtos de uma empresa. O sistema permite um login único para acesso, onde o usuário tem acesso a três áreas principais: **Clientes**, **Fiados** e **Produtos**.
