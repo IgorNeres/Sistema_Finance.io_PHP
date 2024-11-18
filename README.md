@@ -132,7 +132,7 @@ Na seção de **Produtos**, o usuário pode gerenciar o estoque da empresa:
 ## **Fotos Sistema
 <div style="alight-center;">
   <img src="https://github.com/user-attachments/assets/90e00548-a49d-4cf8-9049-30c9d85a7fe0" width="300px">
-  <img src="(https://github.com/user-attachments/assets/25ac3be2-7ba3-4473-8f1d-27231f084641" width="300px">
+  <img src="https://github.com/user-attachments/assets/25ac3be2-7ba3-4473-8f1d-27231f084641" width="300px">
   <img src="https://github.com/user-attachments/assets/4d503c85-4706-4021-ad61-10752fc0a37c" width="300px">
   <img src="https://github.com/user-attachments/assets/84bdb645-1b96-45a9-a1f1-620d9bc272a0" width="300px">
   <img src="https://github.com/user-attachments/assets/1348e650-7e54-4a01-b63f-72ef2dcb254f" width="300px">
