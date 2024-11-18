@@ -1,6 +1,6 @@
 # Finance.io
 <div style="alight-center;">
-  <img src="https://github.com/user-attachments/assets/bc1298ec-3894-4e02-aad9-8ed01720dcae" width="100px">
+  <img src="https://github.com/user-attachments/assets/bc1298ec-3894-4e02-aad9-8ed01720dcae" width="200px">
 </div>
 
 Este sistema foi desenvolvido para gerenciar clientes, fiados e produtos de uma empresa. O sistema permite um login único para acesso, onde o usuário tem acesso a três áreas principais: **Clientes**, **Fiados** e **Produtos**.
@@ -129,6 +129,15 @@ Na seção de **Produtos**, o usuário pode gerenciar o estoque da empresa:
 
 ---
 
-## **Considerações Finais**
-
-Este sistema oferece uma maneira simples e eficiente de gerenciar clientes, fiados e produtos, sendo ideal para pequenas empresas que buscam um controle melhor de suas operações diárias. O design responsivo permite o acesso via dispositivos móveis e desktop, tornando a gestão acessível em qualquer lugar.
+## **Fotos Sistema
+<div style="alight-center;">
+  <img src="https://github.com/user-attachments/assets/90e00548-a49d-4cf8-9049-30c9d85a7fe0" width="100px">
+  <img src="(https://github.com/user-attachments/assets/25ac3be2-7ba3-4473-8f1d-27231f084641" width="100px">
+  <img src="https://github.com/user-attachments/assets/4d503c85-4706-4021-ad61-10752fc0a37c" width="100px">
+  <img src="https://github.com/user-attachments/assets/84bdb645-1b96-45a9-a1f1-620d9bc272a0" width="100px">
+  <img src="https://github.com/user-attachments/assets/1348e650-7e54-4a01-b63f-72ef2dcb254f" width="100px">
+  <img src="https://github.com/user-attachments/assets/bd43cd6e-7a9f-47f0-b0f0-c4697ff13f56" width="100px">
+  <img src="https://github.com/user-attachments/assets/525b9284-f2ef-485b-b4f9-772a422c93cd" width="100px">
+  <img src="https://github.com/user-attachments/assets/17bce254-a3f8-44dc-9aaa-412482d15815" width="100px">
+  <img src="https://github.com/user-attachments/assets/32793da9-1021-4eaa-ac15-d979c433bf53" width="100px">
+</div>
