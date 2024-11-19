@@ -84,7 +84,7 @@ Na seção de **Produtos**, o usuário pode gerenciar o estoque da empresa:
   - **Ícones Bootstrap**: Para facilitar a navegação e visualização das ações no sistema.
 
 - **Estrutura de Banco de Dados**:
- - **clientes**:
+ - **usuario**:
     - `id_user` (INT, PRIMARY KEY)
     - `username` (VARCHAR)
     - `senha` (VARCHAR)
