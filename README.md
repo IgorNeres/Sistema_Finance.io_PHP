@@ -84,6 +84,11 @@ Na seção de **Produtos**, o usuário pode gerenciar o estoque da empresa:
   - **Ícones Bootstrap**: Para facilitar a navegação e visualização das ações no sistema.
 
 - **Estrutura de Banco de Dados**:
+ - **clientes**:
+    - `id_user` (INT, PRIMARY KEY)
+    - `username` (VARCHAR)
+    - `senha` (VARCHAR)
+  
   - **clientes**:
     - `id_clie` (INT, PRIMARY KEY)
     - `nome_clie` (VARCHAR)
@@ -105,7 +110,92 @@ Na seção de **Produtos**, o usuário pode gerenciar o estoque da empresa:
     - `preco_caixa` (DECIMAL)
     - `preco_sujerido` (DECIMAL)
 
----
+    ### **Banco de Dados - Código SQL**
+    
+    CREATE TABLE `cliente` (
+      `id_clie` int(11) NOT NULL,
+      `nome_clie` varchar(50) NOT NULL,
+      `telefone_clie` varchar(11) NOT NULL,
+      `endereco_clie` varchar(100) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    
+    INSERT INTO `cliente` (`id_clie`, `nome_clie`, `telefone_clie`, `endereco_clie`) VALUES
+    (1, 'Igor Neres da Silva', '88993104769', 'Rua São Francisco - 185 - Campo Velho'),
+    (2, 'Gustavo', '88999999999', 'Poranga'),
+    (3, 'Poliane Portela', '88999999999', 'Ararenda'),
+    (4, 'Sophia Campelo', '88999999999', 'Indeps'),
+    (5, 'Luzinete Neres', '88999999999', 'Rua São Francisco - 185 - Campo Velho'),
+    (6, 'Thauana Beatriz', '88993104769', 'Venancios');
+    
+    CREATE TABLE `compra` (
+      `id_com` int(11) NOT NULL,
+      `fk_id_clie` int(11) NOT NULL,
+      `data_com` date NOT NULL,
+      `apelido_com` varchar(50) NOT NULL,
+      `valor_com` float NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+    
+    INSERT INTO `compra` (`id_com`, `fk_id_clie`, `data_com`, `apelido_com`, `valor_com`) VALUES
+    (22, 1, '2024-11-18', 'Mercado', 100),
+    (25, 4, '2024-11-02', 'Doce', 200),
+    (29, 4, '2024-10-27', 'Balinha', 2);
+    
+    CREATE TABLE `produto` (
+      `id_prod` int(11) NOT NULL,
+      `cod_prod` varchar(13) NOT NULL,
+      `nome_prod` varchar(100) NOT NULL,
+      `qtd_caixa` int(11) NOT NULL,
+      `preco_caixa` float NOT NULL,
+      `preco_sujerido` float NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    
+    INSERT INTO `produto` (`id_prod`, `cod_prod`, `nome_prod`, `qtd_caixa`, `preco_caixa`, `preco_sujerido`) VALUES
+    (3, '7891107101621', 'Shampoo', 15, 200, 17.3333),
+    (4, '7896224807098', 'Biscoito', 24, 50, 2.70833),
+    (5, '9452452472125', 'Condicionador', 12, 75, 8.125);
+    
+    
+    CREATE TABLE `usuario` (
+      `id_usuario` int(11) NOT NULL,
+      `username` varchar(50) NOT NULL,
+      `senha` varchar(20) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+    
+    
+    INSERT INTO `usuario` (`id_usuario`, `username`, `senha`) VALUES
+    (1, 'admin', 'admin');
+    
+    ALTER TABLE `cliente`
+      ADD PRIMARY KEY (`id_clie`);
+    
+    ALTER TABLE `compra`
+      ADD PRIMARY KEY (`id_com`),
+      ADD KEY `fk_id_clie` (`fk_id_clie`);
+    
+    ALTER TABLE `produto`
+      ADD PRIMARY KEY (`id_prod`),
+      ADD UNIQUE KEY `cod_prod` (`cod_prod`);
+    
+    ALTER TABLE `usuario`
+      ADD PRIMARY KEY (`id_usuario`);
+    
+    ALTER TABLE `cliente`
+      MODIFY `id_clie` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+    
+    ALTER TABLE `compra`
+      MODIFY `id_com` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=30;
+    
+    ALTER TABLE `produto`
+      MODIFY `id_prod` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+    
+    ALTER TABLE `usuario`
+      MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+    
+    ALTER TABLE `compra`
+      ADD CONSTRAINT `fk_id_clie` FOREIGN KEY (`fk_id_clie`) REFERENCES `cliente` (`id_clie`);
+    COMMIT;
+    
 
 ## **Instruções de Uso**
 
